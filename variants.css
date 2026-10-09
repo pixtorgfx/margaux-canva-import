@@ -1,0 +1,61 @@
+/* W001 Margaux: tri varijante (w2-dizajn §2.2, §6.3). Neutrali su u style.css i isti za sve.
+   Izbor: ?v=merlot|olive|ivory u URL-u ili data-variant na <html>. Bez oznake = Merlot. */
+
+:root,
+[data-variant="merlot"] {
+  --accent: #6B1E2E;
+  --accent-deep: #4A1420;
+  --soft: #B98A86;
+  --wax: #C9A96E;
+  --wax-deep: #8C7140;
+  --wax-light: #EBD9AE;
+  --envelope: #6B1E2E;
+  --envelope-in: #561724;
+  --envelope-line: rgba(0, 0, 0, .16);
+  --illus: #6B1E2E;            /* naglasak ilustracije: grožđe */
+
+  --sw1: #6B1E2E; --sw1-name: "Merlot";
+  --sw2: #B98A86; --sw2-name: "Dusty Rose";
+  --sw3: #C9A96E; --sw3-name: "Champagne";
+  --sw4: #EAE2D3; --sw4-name: "Linen";
+  --sw5: #3A2E2A; --sw5-name: "Espresso";
+}
+
+[data-variant="olive"] {
+  --accent: #55603A;
+  --accent-deep: #3B4428;
+  --soft: #A3AA84;
+  --wax: #E9E0CC;
+  --wax-deep: #B3A685;
+  --wax-light: #FFFCF3;
+  --envelope: #55603A;
+  --envelope-in: #464F2F;
+  --envelope-line: rgba(0, 0, 0, .16);
+  --illus: #5B2A3C;            /* smokva */
+
+  --sw1: #55603A; --sw1-name: "Olive";
+  --sw2: #A3AA84; --sw2-name: "Sage";
+  --sw3: #5B2A3C; --sw3-name: "Fig";
+  --sw4: #EAE2D3; --sw4-name: "Linen";
+  --sw5: #3A2E2A; --sw5-name: "Espresso";
+}
+
+[data-variant="ivory"] {
+  --accent: #4A3328;
+  --accent-deep: #2F211A;
+  --soft: #C8B49A;
+  --wax: #4A3328;
+  --wax-deep: #2A1B14;
+  --wax-light: #7D5E4C;
+  --seal-ink: #8E7060;          /* na tamnom vosku utisak mora biti svjetliji da se čita */
+  --envelope: #EFE8DC;
+  --envelope-in: #E3DACB;
+  --envelope-line: rgba(58, 46, 42, .18);
+  --illus: #55603A;            /* grančica masline */
+
+  --sw1: #4A3328; --sw1-name: "Espresso";
+  --sw2: #C8B49A; --sw2-name: "Latte";
+  --sw3: #C9A96E; --sw3-name: "Champagne";
+  --sw4: #EAE2D3; --sw4-name: "Linen";
+  --sw5: #FBF8F2; --sw5-name: "Ivory";
+}
