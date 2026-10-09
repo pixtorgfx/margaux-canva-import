@@ -1,0 +1,7 @@
+<svg class="roads" viewBox="0 0 456 132" preserveAspectRatio="none" fill="none" stroke="rgb(205, 191, 169)" xmlns="http://www.w3.org/2000/svg" width="454" height="130" style="color: rgb(205, 191, 169);">
+          <path d="M-10 96C80 84 150 104 228 80S380 40 470 52" stroke-width="7" opacity=".55"></path>
+          <path d="M-10 96C80 84 150 104 228 80S380 40 470 52" stroke-width="1" stroke="#fff"></path>
+          <path d="M120 -10C132 40 140 80 160 142M330 -10c-10 50-4 100 20 152M-10 30c90 6 160-6 240 4" stroke-width="3" opacity=".5"></path>
+          <path d="M260 142c4-30 20-50 60-58" stroke-width="2" opacity=".4"></path>
+          <circle cx="228" cy="80" r="26" stroke-width="1" stroke-dasharray="3 4" opacity=".9"></circle>
+        </svg>
